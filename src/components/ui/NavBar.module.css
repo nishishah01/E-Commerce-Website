@@ -1,0 +1,9 @@
+.stickyNavbar {
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+  }
+  .responsiveCart {
+    font-size: 1.2rem;
+  }
+  
