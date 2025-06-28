@@ -1,5 +1,30 @@
+# Django and REST Framework
 Django>=4.2,<5.0
 djangorestframework>=3.14,<4.0
-pillow>=9.0.0
-django-cors-headers==4.3.1
 djangorestframework-simplejwt==5.3.1
+
+# CORS and Authentication
+django-cors-headers==4.3.1
+
+# Image Processing
+Pillow>=9.0.0
+
+# Payment Processing
+paypalrestsdk>=1.13.1
+
+# HTTP Requests
+requests>=2.28.0
+
+# Development and Production
+python-decouple>=3.8
+gunicorn>=20.1.0
+whitenoise>=6.5.0
+
+# Database (if you plan to use PostgreSQL in production)
+psycopg2-binary>=2.9.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Additional Utilities
+django-extensions>=3.2.0
